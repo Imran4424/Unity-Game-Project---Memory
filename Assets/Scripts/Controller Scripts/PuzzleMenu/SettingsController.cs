@@ -9,5 +9,15 @@ public class SettingsController : MonoBehaviour
 
 	[SerializeField]
 	private Animator settingsPanelAnim;
+
+	public void OpenSettingsPanel()
+	{
+
+	}
+
+	public void CloseSettingsPanel()
+	{
+		
+	}
 	
 }
