@@ -18,7 +18,7 @@ public class SettingsController : MonoBehaviour
 
 	public void CloseSettingsPanel()
 	{
-
+		StartCoroutine(CloseSettings());
 	}
 	
 	IEnumerator CloseSettings()
