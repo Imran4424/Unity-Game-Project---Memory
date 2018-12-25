@@ -1050,8 +1050,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc8b08ac3c1029847888a2b6703d0fc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  settingsPanel: {fileID: 0}
-  settingsPanelAnim: {fileID: 0}
+  settingsPanel: {fileID: 591707875}
+  settingsPanelAnim: {fileID: 591707880}
 --- !u!114 &1169890149
 MonoBehaviour:
   m_ObjectHideFlags: 0
