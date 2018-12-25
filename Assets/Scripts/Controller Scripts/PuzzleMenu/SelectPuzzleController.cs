@@ -15,5 +15,7 @@ public class SelectPuzzleController : MonoBehaviour
 	public void SelectedPuzzle()
 	{
 		selectedPuzzle = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
+
+		Debug.Log(selectedPuzzle);
 	}	
 }
