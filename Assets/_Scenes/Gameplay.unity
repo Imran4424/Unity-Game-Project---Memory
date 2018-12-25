@@ -742,6 +742,7 @@ GameObject:
   - component: {fileID: 591707878}
   - component: {fileID: 591707877}
   - component: {fileID: 591707879}
+  - component: {fileID: 591707880}
   m_Layer: 5
   m_Name: Settings Panel
   m_TagString: Untagged
@@ -814,6 +815,23 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!95 &591707880
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 591707875}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 70420bd0c5842c143861185aaf571b2f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1120794616
 GameObject:
   m_ObjectHideFlags: 0
