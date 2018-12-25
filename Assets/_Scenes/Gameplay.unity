@@ -8957,6 +8957,7 @@ GameObject:
   - component: {fileID: 1773618136}
   - component: {fileID: 1773618138}
   - component: {fileID: 1773618137}
+  - component: {fileID: 1773618139}
   m_Layer: 5
   m_Name: Level Select Menu Panel
   m_TagString: Untagged
@@ -9031,6 +9032,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1773618135}
+--- !u!225 &1773618139
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1773618135}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1781596018
 GameObject:
   m_ObjectHideFlags: 0
