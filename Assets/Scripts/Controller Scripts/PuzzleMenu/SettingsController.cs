@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class SettingsController : MonoBehaviour 
 {
-	
+	[SerializeField]
+	private GameObject settingsPanel;
+
+	[SerializeField]
+	private Animator settingsPanelAnim;
 	
 }
