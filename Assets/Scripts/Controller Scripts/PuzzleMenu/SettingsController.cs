@@ -12,12 +12,20 @@ public class SettingsController : MonoBehaviour
 
 	public void OpenSettingsPanel()
 	{
-
+		settingsPanel.SetActive(true);
+		settingsPanelAnim.Play("SlideIn");
 	}
 
 	public void CloseSettingsPanel()
 	{
-		
+
 	}
 	
+	IEnumerator CloseSettings()
+	{
+		settingsPanelAnim.Play("SlideOut");
+
+		yield return new WaitForSeconds(1f);
+		settingsPanel.SetActive(false);
+	}
 }
