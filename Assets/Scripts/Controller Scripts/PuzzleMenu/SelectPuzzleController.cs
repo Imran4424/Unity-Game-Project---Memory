@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class SelectPuzzleController : MonoBehaviour 
 {
+	[SerializeField]
+	private GameObject selectPuzzleMenuPanel;
 
-	
+	[SerializeField]
+	private Animator selectPuzzleMenuAnim;
+
+	private string selectedPuzzle;
+
+	public void SelectedPuzzle()
+	{
+		selectedPuzzle = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
+	}	
 }
