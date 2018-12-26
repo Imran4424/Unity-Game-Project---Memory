@@ -5306,7 +5306,7 @@ GameObject:
   - component: {fileID: 1169890149}
   - component: {fileID: 1169890148}
   m_Layer: 0
-  m_Name: Select Puzzle Controlle
+  m_Name: Select Puzzle Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
