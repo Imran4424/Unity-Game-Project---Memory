@@ -5,10 +5,10 @@ using UnityEngine;
 public class SelectPuzzleController : MonoBehaviour 
 {
 	[SerializeField]
-	private GameObject selectPuzzleMenuPanel;
+	private GameObject selectPuzzleMenuPanel, selectPuzzleLevel;
 
 	[SerializeField]
-	private Animator selectPuzzleMenuAnim;
+	private Animator selectPuzzleMenuAnim, selectPuzzleLevelAnim;
 
 	private string selectedPuzzle;
 
