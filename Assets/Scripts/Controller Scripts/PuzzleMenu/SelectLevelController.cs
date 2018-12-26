@@ -14,6 +14,13 @@ public class SelectLevelController : MonoBehaviour
 
 	IEnumerator BackToPuzzleSelectMenu()
 	{
+		selectPuzzleMenuPanel.SetActive(true);
 		
+		selectPuzzleLevelAnim.Play("SlideOut");
+		selectPuzzleMenuAnim.Play("SlideIn");
+
+		yield return new WaitForSeconds(1f);
+
+		selectPuzzleLevelPanel.SetActive(false);
 	}
 }
