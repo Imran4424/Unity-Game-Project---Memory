@@ -12,6 +12,12 @@ public class SelectLevelController : MonoBehaviour
 
 	private string selectedLevel;
 
+
+	public void BackButtonClicked()
+	{
+		StartCoroutine(BackToPuzzleSelectMenu());
+	}
+
 	IEnumerator BackToPuzzleSelectMenu()
 	{
 		selectPuzzleMenuPanel.SetActive(true);
