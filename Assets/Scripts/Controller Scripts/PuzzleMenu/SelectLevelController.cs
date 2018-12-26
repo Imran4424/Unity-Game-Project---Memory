@@ -10,7 +10,7 @@ public class SelectLevelController : MonoBehaviour
 	[SerializeField]
 	private Animator selectPuzzleMenuAnim, selectPuzzleLevelAnim;
 
-	private string selectedLevel;
+	private string selectedPuzzle;
 
 	public void BackButtonClicked ()
 	{
