@@ -12,21 +12,21 @@ public class SelectLevelController : MonoBehaviour
 
 	private string selectedLevel;
 
-
-	public void BackButtonClicked()
+	public void BackButtonClicked ()
 	{
-		StartCoroutine(BackToPuzzleSelectMenu());
+		StartCoroutine (BackToPuzzleSelectMenu ());
 	}
 
-	IEnumerator BackToPuzzleSelectMenu()
+	IEnumerator BackToPuzzleSelectMenu ()
 	{
-		selectPuzzleMenuPanel.SetActive(true);
-		
-		selectPuzzleLevelAnim.Play("SlideOut");
-		selectPuzzleMenuAnim.Play("SlideIn");
+		selectPuzzleMenuPanel.SetActive (true);
 
-		yield return new WaitForSeconds(1.5f);
+		selectPuzzleLevelAnim.Play ("SlideOut");
+		yield return new WaitForSeconds (0.5f);
+		selectPuzzleMenuAnim.Play ("SlideIn");
 
-		selectPuzzleLevelPanel.SetActive(false);
+		yield return new WaitForSeconds (1f);
+
+		selectPuzzleLevelPanel.SetActive (false);
 	}
 }
