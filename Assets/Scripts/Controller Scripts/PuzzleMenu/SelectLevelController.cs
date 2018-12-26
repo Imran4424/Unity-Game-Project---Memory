@@ -22,7 +22,7 @@ public class SelectLevelController : MonoBehaviour
 		selectPuzzleMenuPanel.SetActive (true);
 
 		selectPuzzleLevelAnim.Play ("SlideOut");
-		yield return new WaitForSeconds (0.5f);
+		yield return new WaitForSeconds (0.4f);
 		selectPuzzleMenuAnim.Play ("SlideIn");
 
 		yield return new WaitForSeconds (1f);
