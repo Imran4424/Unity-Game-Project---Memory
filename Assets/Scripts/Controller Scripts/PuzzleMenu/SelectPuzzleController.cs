@@ -5,7 +5,7 @@ using UnityEngine;
 public class SelectPuzzleController : MonoBehaviour 
 {
 	[SerializeField]
-	private GameObject selectPuzzleMenuPanel, selectPuzzleLevel;
+	private GameObject selectPuzzleMenuPanel, selectPuzzleLevelPanel;
 
 	[SerializeField]
 	private Animator selectPuzzleMenuAnim, selectPuzzleLevelAnim;
@@ -17,5 +17,12 @@ public class SelectPuzzleController : MonoBehaviour
 		selectedPuzzle = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
 
 		Debug.Log(selectedPuzzle);
+	}
+
+	IEnumerator ShowPuzzleLevelSelectMenu()
+	{
+		selectPuzzleLevelPanel.SetActive(true);
+		selectPuzzleMenuAnim.Play("SlideOut");
+		yield return null;
 	}	
 }
