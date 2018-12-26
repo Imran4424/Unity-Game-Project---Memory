@@ -1298,10 +1298,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f0c15e851aa9d046a8ca8e009907345, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectPuzzleMenuPanel: {fileID: 0}
-  selectPuzzleLevelPanel: {fileID: 0}
-  selectPuzzleMenuAnim: {fileID: 0}
-  selectPuzzleLevelAnim: {fileID: 0}
+  selectPuzzleMenuPanel: {fileID: 117604133}
+  selectPuzzleLevelPanel: {fileID: 1773618135}
+  selectPuzzleMenuAnim: {fileID: 117604138}
+  selectPuzzleLevelAnim: {fileID: 1773618140}
 --- !u!1 &231248590
 GameObject:
   m_ObjectHideFlags: 0
